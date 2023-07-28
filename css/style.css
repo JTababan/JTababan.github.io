@@ -49,7 +49,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(/image/jom1.jpg) no-repeat;
+    background: url(../image/jom1.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -88,7 +88,7 @@ section{
 #About{
     
     padding-top: 120px;
-    background-image: url(/image/image1.jpg);
+    background-image: url(../image/image1.jpg);
     width: 100%;
     padding-left: 2%;
 
@@ -137,7 +137,7 @@ section{
 
 #Certificates{
     padding-top: 150px;
-    background-image: url(/image/image1.jpg);
+    background-image: url(../image/image1.jpg);
 
 }
     .certificate-section {
@@ -167,7 +167,7 @@ section{
       font-family: 'Bradley Hand', cursive;
     }
 #Services{
-    background-image: url(/image/image1.jpg);
+    background-image: url(../image/image1.jpg);
     color: white;
     font-size: 20px;
     font-family: 'Bradley Hand', cursive;
@@ -186,8 +186,8 @@ section{
     width: 100%;
     height: auto;
     display: block;
-    border: 1px solid #ccc; /* Add a border around images (optional) */
-    border-radius: 5px; /* Add rounded corners to images (optional) */
+    border: 1px solid #ccc;
+    border-radius: 5px; 
 }
 .image-container h2{
     color: aqua;
@@ -197,7 +197,7 @@ section{
 #Contact{
     padding-top: 120px;
     
-    background-image: url(/image/image1.jpg);
+    background-image: url(../image/image1.jpg);
 
 }
 /* Add custom styles here */
@@ -267,7 +267,7 @@ section{
     background-color: #45a049;
   }
   
-  /* Add responsiveness for smaller screens */
+  
   @media (max-width: 768px) {
     .contact-heading {
       font-size: 28px;
